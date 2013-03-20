@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:32:25+09:00</updated>
+  <updated>2013-03-20T17:33:35+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -37,53 +37,53 @@
 
 <h2>手順メモ</h2>
 
-<ol>
+<ul>
 <li><p>RVMのインストール
 curlとgit-coreをインストール
 <code>
- sudo apt-get install curl git-core
+  sudo apt-get install curl git-core
 </code>
 rvmをインストール
 <code>
- sudo apt-get install curl git-core
- curl -L get.rvm.io | bash -s stable
+  sudo apt-get install curl git-core
+  curl -L get.rvm.io | bash -s stable
 </code></p></li>
 <li><p>Rubyのインストール
 公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に
 <code>
- sudo apt-get install curl git-core
- rvm install 1.9.3
+  sudo apt-get install curl git-core
+  rvm install 1.9.3
 </code>
 ~/.bachrcに追記
 <code>
- source "$HOME/.rvm/scripts/rvm"
+  source "$HOME/.rvm/scripts/rvm"
 </code>
 ~/.bachrc読み込み
 <code>
- source ~/.bashrc
+  source ~/.bashrc
 </code>
 使用バージョン設定
 <code>
- rvm use 1.9.3 --default
+  rvm use 1.9.3 --default
 </code>
 必要なライブラリ等を調べてインストール
 <code>
- rvm requirements
+  rvm requirements
 </code>
 jsonのインストール
 <code>
- sudo gem update
- sudo gem install json
+  sudo gem update
+  sudo gem install json
 </code></p></li>
 <li><p>Githubでリポジトリを作成</p></li>
-</ol>
+</ul>
 
 
 <p>[create a New Repository] で [USERNAME.github.com] という名前でリポジトリを作成する。</p>
 
-<ol>
+<ul>
 <li>Octopressのインストール</li>
-</ol>
+</ul>
 
 
 <p>```
