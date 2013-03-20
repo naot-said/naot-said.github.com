@@ -1,0 +1,4 @@
+User-agent: *
+Disallow: 
+
+Sitemap: http://naot-said.github.com/sitemap.xml 
