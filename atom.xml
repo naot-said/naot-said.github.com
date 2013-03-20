@@ -4,7 +4,7 @@
   <title><![CDATA[nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T18:50:49+09:00</updated>
+  <updated>2013-03-20T21:50:09+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -12,6 +12,19 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressのテーマ変更]]></title>
+    <link href="http://naot-said.github.com/blog/2013/03/20/themes/"/>
+    <updated>2013-03-20T21:23:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/03/20/themes</id>
+    <content type="html"><![CDATA[<h2>Octopressのテーマ変更</h2>
+
+<p>  ここから好きなのを選ぶ</p>
+
+<p>  <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Octopress Themes</a></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress 普段やること]]></title>
