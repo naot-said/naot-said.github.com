@@ -4,7 +4,7 @@
   <title><![CDATA[nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T16:55:54+09:00</updated>
+  <updated>2013-03-20T16:56:50+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -39,8 +39,15 @@
 
 <ol>
 <li>RVMのインストール</li>
-<li>curlとgit-coreをインストール
- sudo apt-get install curl git-core</li>
+<li>curlとgit-coreをインストール</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install curl git-core</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
 <li><p>rvmをインストール</p>
 
 <p> sudo apt-get install curl git-core
@@ -50,7 +57,7 @@
 <p> sudo apt-get install curl git-core
  rvm install 1.9.3</p></li>
 <li><p>~/.bachrcに追記</p></li>
-</ol>
+</ul>
 
 
 <figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
