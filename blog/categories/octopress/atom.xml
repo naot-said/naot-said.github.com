@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T16:35:29+09:00</updated>
+  <updated>2013-03-20T16:45:09+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -45,11 +45,12 @@
  curl -L get.rvm.io | bash -s stable</li>
 <li>Rubyのインストール
  rvm install 1.9.3</li>
-<li><p>~/.bachrcに追記
+<li>~/.bachrcに追記
  source "$HOME/.rvm/scripts/rvm"
- rvm use 1.9.3</p>
-
-<p> source ~/.bashrc</p></li>
+ rvm use 1.9.3
+<code>ruby
+source ~/.bashrc
+</code></li>
 </ol>
 
 
