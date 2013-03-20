@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:09:48+09:00</updated>
+  <updated>2013-03-20T17:15:58+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -49,6 +49,7 @@ rvmをインストール
  curl -L get.rvm.io | bash -s stable
 </code></p></li>
 <li><p>Rubyのインストール
+公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に
 <code>
  sudo apt-get install curl git-core
  rvm install 1.9.3
@@ -68,11 +69,14 @@ rvmをインストール
 必要なライブラリ等を調べてインストール
 <code>
  rvm requirements
+</code>
+jsonのインストール
+<code>
+ sudo gem update
+ sudo gem install json
 </code></p></li>
 </ol>
 
-
-<p>公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に</p>
 ]]></content>
   </entry>
   
