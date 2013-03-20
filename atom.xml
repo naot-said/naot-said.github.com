@@ -4,7 +4,7 @@
   <title><![CDATA[nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T16:50:56+09:00</updated>
+  <updated>2013-03-20T16:52:10+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -39,48 +39,27 @@
 
 <ol>
 <li>RVMのインストール</li>
-<li>curlとgit-coreをインストール</li>
+<li><p>curlとgit-coreをインストール</p>
+
+<p> sudo apt-get install curl git-core</p></li>
+<li><p>rvmをインストール</p>
+
+<p> sudo apt-get install curl git-core
+ curl -L get.rvm.io | bash -s stable</p></li>
+<li><p>Rubyのインストール</p>
+
+<p> sudo apt-get install curl git-core
+ rvm install 1.9.3</p></li>
+<li><p>~/.bachrcに追記</p></li>
 </ol>
 
 
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<figure class='code'><figcaption><span></span></figcaption><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
 <span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>    sudo apt-get install curl git-core
-</span><span class='line'>
-</span><span class='line'>*  rvmをインストール</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class='ruby'><span class='line'><span class="n">source</span> <span class="s2">&quot;$HOME/.rvm/scripts/rvm&quot;</span>
+</span><span class='line'><span class="n">rvm</span> <span class="n">use</span> <span class="mi">1</span><span class="o">.</span><span class="mi">9</span><span class="o">.</span><span class="mi">3</span>
+</span></code></pre></td></tr></table></div></figure>
 
-
-<pre><code>sudo apt-get install curl git-core
-curl -L get.rvm.io | bash -s stable
-</code></pre>
-
-<ol>
-<li>Rubyのインストール</li>
-</ol>
-
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>
-</span><span class='line'>    sudo apt-get install curl git-core
-</span><span class='line'>    rvm install 1.9.3
-</span><span class='line'>
-</span><span class='line'>*  ~/.bachrcに追記</span></code></pre></td></tr></table></div></figure>
-
-
-<p> ruby</p>
-
-<pre><code>source "$HOME/.rvm/scripts/rvm"
-rvm use 1.9.3
-</code></pre>
-
-<p>&#8220;`</p>
 
 <pre><code>source ~/.bashrc
 </code></pre>
