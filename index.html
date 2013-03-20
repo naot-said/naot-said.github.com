@@ -9,13 +9,12 @@
   <meta name="author" content="nao">
 
   
-  <meta name="description" content="何か適当にやってたら色々ハマったのでメモ。 やったこと RVMのインストール
-Rubyのインストール
-Githubでリポジトリを作成
-Octopressのインストール
-記事の投稿 手順メモ RVMのインストール
-curlとgit-coreをインストール 1
-sudo apt-get install &hellip;">
+  <meta name="description" content="記事の更新方法 普段の更新方法のメモ書き 新規記事の作成 1
+2
+3
+$ rake new_post["Title"] # URLになる
+mkdir -p source/_posts
+Creating new post: source/_posts/2013-03-20-xxxxx. &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -71,6 +70,94 @@ sudo apt-get install &hellip;">
     <div id="content">
       <div class="blog-index">
   
+  
+  
+    <article>
+      
+  <header>
+    
+      <h1 class="entry-title"><a href="/blog/2013/03/20/octopress-posts/">Octopress 普段やること</a></h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-20T18:31:00+09:00" pubdate data-updated="true">Mar 20<span>th</span>, 2013</time>
+        
+      </p>
+    
+  </header>
+
+
+  <div class="entry-content"><h2>記事の更新方法</h2>
+
+<p>  普段の更新方法のメモ書き</p>
+
+<ul>
+<li>新規記事の作成</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake new_post["Title"] # URLになる
+</span><span class='line'>mkdir -p source/_posts
+</span><span class='line'>Creating new post: source/_posts/2013-03-20-xxxxx.markdown</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>ローカルでプレビューしながら</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake generate
+</span><span class='line'>$ rake preview</span></code></pre></td></tr></table></div></figure>
+
+
+<p>  http://localhost:4000で確認しながら編集できる。</p>
+
+<ul>
+<li>デプロイ</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ rake gen_deploy</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>たまにはソースをプッシュしておく</li>
+</ul>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git add .
+</span><span class='line'>$ git commit -m 'commit'
+</span><span class='line'>$ git push origin source #最初はこれ
+</span><span class='line'>$ git push # 次回以降</span></code></pre></td></tr></table></div></figure>
+
+</div>
+  
+  
+
+
+    </article>
   
   
     <article>
@@ -256,6 +343,8 @@ http://USERNAME.github.com 確認</p></li>
 <li>_config.ymlでサイトの基本設定</li>
 </ul>
 
+
+<p>とりあえずこれで完了。</p>
 </div>
   
   
@@ -274,6 +363,10 @@ http://USERNAME.github.com 確認</p></li>
     <section>
   <h1>Recent Posts</h1>
   <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/blog/2013/03/20/octopress-posts/">Octopress 普段やること</a>
+      </li>
     
       <li class="post">
         <a href="/blog/2013/03/20/test/">Octopress インストールメモ</a>
