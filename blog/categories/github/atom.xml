@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:15:58+09:00</updated>
+  <updated>2013-03-20T17:20:37+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -75,8 +75,34 @@ jsonのインストール
  sudo gem update
  sudo gem install json
 </code></p></li>
+<li><p>Githubでリポジトリを作成</p></li>
 </ol>
 
+
+<p>[create a New Repository] で [USERNAME.github.com] という名前でリポジトリを作成する。</p>
+
+<ol>
+<li>Octopressのインストール
+```
+cd [作業ディレクトリ]
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress</li>
+</ol>
+
+
+<p>sudo gem install bundler
+sudo bundle install</p>
+
+<p>rake install
+rake setup_github_pages</p>
+
+<h1>Enter the read/write url for your repository:</h1>
+
+<h1>git@github.com:[USERNAME]/[USERNAME].github.com.git</h1>
+
+<p>rake generate
+rake deploy
+```</p>
 ]]></content>
   </entry>
   
