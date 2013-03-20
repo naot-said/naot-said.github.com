@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T21:53:20+09:00</updated>
+  <updated>2013-03-20T21:55:24+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -12,6 +12,69 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Octopressのテーマ変更]]></title>
+    <link href="http://naot-said.github.com/blog/2013/03/20/themes/"/>
+    <updated>2013-03-20T21:23:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/03/20/themes</id>
+    <content type="html"><![CDATA[<h2>Octopressのテーマ変更</h2>
+
+<p>  ここから好きなのを選ぶ</p>
+
+<p>  <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Octopress Themes</a></p>
+
+<p>  あとはreadmeを参考に
+<code>
+$ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
+$ echo "\$greyshade: #2571b8;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
+$ rake "install[greyshade]"
+$ rake generate
+</code></p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Octopress 普段やること]]></title>
+    <link href="http://naot-said.github.com/blog/2013/03/20/octopress-posts/"/>
+    <updated>2013-03-20T18:31:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/03/20/octopress-posts</id>
+    <content type="html"><![CDATA[<h2>記事の更新方法</h2>
+
+<p>  普段の更新方法のメモ書き</p>
+
+<ul>
+<li><p>新規記事の作成
+<code>
+$ rake new_post["Title"] # URLになる
+mkdir -p source/_posts
+Creating new post: source/_posts/2013-03-20-xxxxx.markdown
+</code></p></li>
+<li><p>ローカルでプレビューしながら
+<code>
+$ rake generate
+$ rake preview
+</code>
+http://localhost:4000で確認しながら編集できる。</p></li>
+<li><p>デプロイ
+<code>
+$ rake gen_deploy
+</code></p></li>
+<li><p>たまにはソースをプッシュしておく
+<code>
+$ git add .
+$ git commit -m 'commit'
+$ git push origin source #最初はこれ
+$ git push # 次回以降
+</code></p></li>
+<li><p>ページを新しく作成したい場合
+<code>
+$ rake new_page["Title"] # 新規ページ作成
+</code></p></li>
+</ul>
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress インストールメモ]]></title>
