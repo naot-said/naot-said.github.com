@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T15:56:47+09:00</updated>
+  <updated>2013-03-20T16:05:05+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -14,11 +14,11 @@
 
   
   <entry>
-    <title type="html"><![CDATA[テスト]]></title>
+    <title type="html"><![CDATA[Octopress インストールメモ]]></title>
     <link href="http://naot-said.github.com/blog/2013/03/20/test/"/>
     <updated>2013-03-20T15:25:00+09:00</updated>
     <id>http://naot-said.github.com/blog/2013/03/20/test</id>
-    <content type="html"><![CDATA[<p>てすとです</p>
+    <content type="html"><![CDATA[<p>何か適当にやってたら色々ハマったのでメモ。</p>
 ]]></content>
   </entry>
   
