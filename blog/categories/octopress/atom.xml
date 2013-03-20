@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:33:35+09:00</updated>
+  <updated>2013-03-20T17:53:27+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -86,13 +86,24 @@ jsonのインストール
 </ul>
 
 
-<p>```
+<p><code>
 cd [作業ディレクトリ]
 git clone git://github.com/imathis/octopress.git octopress
-cd octopress</p>
+cd octopress
+</code>
+* Gamfileの編集
+<code>
+gem 'rake', '~&gt; 10.0.3'
+gem 'json', '~&gt; 1.7.7'
+</code></p>
 
-<p>sudo gem install bundler
-sudo bundle install</p>
+<ul>
+<li>Octopressのインストールの続き
+```
+sudo gem install bundler
+sudo bundle install</li>
+</ul>
+
 
 <p>rake install
 rake setup_github_pages</p>
