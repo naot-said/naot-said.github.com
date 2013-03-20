@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[nao メモ用ブログ]]></title>
+  <title><![CDATA[nao メモブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T21:55:24+09:00</updated>
+  <updated>2013-03-20T23:53:12+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
-    
+    <email><![CDATA[naotosaido@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -31,11 +31,19 @@
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
-</span><span class='line'>$ echo "\$greyshade: #2571b8;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
+</span><span class='line'>$ echo "\$greyshade: #268bd2;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
 </span><span class='line'>$ rake "install[greyshade]"
 </span><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure>
 
 
+<p>タイトルが２重に表示されていたので修正</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ vi source/_includes/header.html
+</span><span class='line'>&lt;!-- 最終行をコメントアウト --&gt; 
+</span><span class='line'>&lt;!-- {\% include custom/header.html \%} --&gt;</span></code></pre></td></tr></table></div></figure>
 
 ]]></content>
   </entry>

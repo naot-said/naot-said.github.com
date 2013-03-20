@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Octopress | nao メモ用ブログ]]></title>
+  <title><![CDATA[Category: Octopress | nao メモブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T21:55:24+09:00</updated>
+  <updated>2013-03-20T23:53:12+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
-    
+    <email><![CDATA[naotosaido@gmail.com]]></email>
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
@@ -27,10 +27,19 @@
 <p>  あとはreadmeを参考に
 <code>
 $ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
-$ echo "\$greyshade: #2571b8;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
+$ echo "\$greyshade: #268bd2;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
 $ rake "install[greyshade]"
 $ rake generate
-</code></p>
+</code>
+タイトルが２重に表示されていたので修正
+```</p>
+
+<pre><code>$ vi source/_includes/header.html
+&lt;!-- 最終行をコメントアウト --&gt; 
+&lt;!-- {\% include custom/header.html \%} --&gt;
+</code></pre>
+
+<p>```</p>
 ]]></content>
   </entry>
   

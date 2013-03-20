@@ -3,7 +3,7 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>nao メモ用ブログ</title>
+	<title>nao メモブログ</title>
 	<meta name="author" content="nao">
 
 	
@@ -19,7 +19,7 @@ $ git clone git@github &hellip;">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
-	<link href="/atom.xml" rel="alternate" title="nao メモ用ブログ" type="application/atom+xml">
+	<link href="/atom.xml" rel="alternate" title="nao メモブログ" type="application/atom+xml">
 	
 	<link rel="canonical" href="http://naot-said.github.com/">
 	<link href="/favicon.png" rel="shortcut icon">
@@ -41,10 +41,10 @@ $ git clone git@github &hellip;">
 			<header id="header" class="inner"><div class="profilepic">	
 	<script src="/javascripts/md5.js"></script>
 	<script type="text/javascript">
-		document.write("<img src='http://www.gravatar.com/avatar/" + MD5("") + "?s=160' alt='Profile Picture' style='width: 160px;'");
+		document.write("<img src='http://www.gravatar.com/avatar/" + MD5("naotosaido@gmail.com") + "?s=160' alt='Profile Picture' style='width: 160px;'");
 	</script>
 </div>
-<h1><a href="/">nao メモ用ブログ</a></h1>
+<h1><a href="/">nao メモブログ</a></h1>
 <p class="subtitle">ネタがないです。。。</p>
 <nav id="main-nav"><ul class="main-navigation">
   <li><a href="/">Blog</a></li>
@@ -57,6 +57,8 @@ $ git clone git@github &hellip;">
 		
 		
 		
+		<a class="github" href="https://github.com/naot-said" title="GitHub">GitHub</a>
+		
 		
 		
 		
@@ -66,13 +68,13 @@ $ git clone git@github &hellip;">
 		
 	</div>
 </nav>
-<hgroup>
-  <h1><a href="/">nao メモ用ブログ</a></h1>
+<!-- <hgroup>
+  <h1><a href="/">nao メモブログ</a></h1>
   
     <h2>ネタがないです。。。</h2>
   
 </hgroup>
-
+ -->
 </header>				
 			</div>
 		</div>	
@@ -124,11 +126,19 @@ $ git clone git@github &hellip;">
 <span class='line-number'>3</span>
 <span class='line-number'>4</span>
 </pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
-</span><span class='line'>$ echo "\$greyshade: #2571b8;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
+</span><span class='line'>$ echo "\$greyshade: #268bd2;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
 </span><span class='line'>$ rake "install[greyshade]"
 </span><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure>
 
 
+<p>タイトルが２重に表示されていたので修正</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ vi source/_includes/header.html
+</span><span class='line'>&lt;!-- 最終行をコメントアウト --&gt; 
+</span><span class='line'>&lt;!-- {\% include custom/header.html \%} --&gt;</span></code></pre></td></tr></table></div></figure>
 
 
 		
