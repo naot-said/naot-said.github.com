@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:53:27+09:00</updated>
+  <updated>2013-03-20T18:07:14+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -114,7 +114,20 @@ rake setup_github_pages</p>
 
 <p>rake generate
 rake deploy
-```</p>
+```
+* サイト確認
+  http://USERNAME.github.com 確認</p>
+
+<ul>
+<li>Octopressを展開したフォルダがmasterブランチからsourceブランチに変わっているので、そのままリポジトリにコミット
+<code>
+git add .
+git commit -m 'commit'
+git push -u origin source
+</code></li>
+<li>_config.ymlでサイトの基本設定</li>
+</ul>
+
 ]]></content>
   </entry>
   
