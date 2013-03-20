@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:21:42+09:00</updated>
+  <updated>2013-03-20T17:24:24+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -38,45 +38,75 @@
 <h2>手順メモ</h2>
 
 <ol>
-<li><p>RVMのインストール
-curlとgit-coreをインストール
-<code>
- sudo apt-get install curl git-core
-</code>
-rvmをインストール
-<code>
- sudo apt-get install curl git-core
- curl -L get.rvm.io | bash -s stable
-</code></p></li>
-<li><p>Rubyのインストール
-公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に
-<code>
-  sudo apt-get install curl git-core
-  rvm install 1.9.3
-</code>
-~/.bachrcに追記
-<code>
-  source "$HOME/.rvm/scripts/rvm"
-</code>
-~/.bachrc読み込み
-<code>
-  source ~/.bashrc
-</code>
-使用バージョン設定
-<code>
-  rvm use 1.9.3 --default
-</code>
-必要なライブラリ等を調べてインストール
-<code>
-  rvm requirements
-</code>
-jsonのインストール
-<code>
-  sudo gem update
-  sudo gem install json
-</code></p></li>
-<li><p>Githubでリポジトリを作成</p></li>
+<li>RVMのインストール</li>
 </ol>
+
+
+<p>curlとgit-coreをインストール
+```</p>
+
+<pre><code>sudo apt-get install curl git-core
+</code></pre>
+
+<p><code>
+rvmをインストール
+</code></p>
+
+<pre><code>sudo apt-get install curl git-core
+curl -L get.rvm.io | bash -s stable
+</code></pre>
+
+<p>```</p>
+
+<p>*. Rubyのインストール
+公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に
+```</p>
+
+<pre><code>sudo apt-get install curl git-core
+rvm install 1.9.3
+</code></pre>
+
+<p><code>
+~/.bachrcに追記
+</code></p>
+
+<pre><code>source "$HOME/.rvm/scripts/rvm"
+</code></pre>
+
+<p><code>
+~/.bachrc読み込み
+</code></p>
+
+<pre><code>source ~/.bashrc
+</code></pre>
+
+<p><code>
+使用バージョン設定
+</code></p>
+
+<pre><code>rvm use 1.9.3 --default
+</code></pre>
+
+<p><code>
+必要なライブラリ等を調べてインストール
+</code></p>
+
+<pre><code>rvm requirements
+</code></pre>
+
+<p><code>
+jsonのインストール
+</code></p>
+
+<pre><code>sudo gem update
+sudo gem install json
+</code></pre>
+
+<p>```</p>
+
+<ul>
+<li>Githubでリポジトリを作成</li>
+</ul>
 
 
 <p>[create a New Repository] で [USERNAME.github.com] という名前でリポジトリを作成する。</p>
