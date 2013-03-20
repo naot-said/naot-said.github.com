@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T16:05:05+09:00</updated>
+  <updated>2013-03-20T16:31:50+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -19,6 +19,45 @@
     <updated>2013-03-20T15:25:00+09:00</updated>
     <id>http://naot-said.github.com/blog/2013/03/20/test</id>
     <content type="html"><![CDATA[<p>何か適当にやってたら色々ハマったのでメモ。</p>
+
+<hr />
+
+<h2>やったこと</h2>
+
+<ol>
+<li>RVMのインストール</li>
+<li>Rubyのインストール</li>
+<li>Githubでリポジトリを作成</li>
+<li>Octopressのインストール</li>
+<li>記事の投稿</li>
+</ol>
+
+
+<hr />
+
+<h2>やったこと</h2>
+
+<ol>
+<li>RVMのインストール</li>
+<li>curlとgit-coreをインストール
+
+<blockquote><p>block quote
+ sudo apt-get install curl git-core</p></blockquote></li>
+<li>rvmをインストール
+
+<blockquote><p>block quote
+ curl -L get.rvm.io | bash -s stable</p></blockquote></li>
+<li>~/.bachrcに追記
+
+<blockquote><p>block quote
+ source "$HOME/.rvm/scripts/rvm"
+ rvm use 1.9.3
+block quote
+ source ~/.bashrc</p></blockquote></li>
+</ol>
+
+
+<p>公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に</p>
 ]]></content>
   </entry>
   
