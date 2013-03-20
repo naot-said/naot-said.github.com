@@ -4,7 +4,7 @@
   <title><![CDATA[nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T15:38:45+09:00</updated>
+  <updated>2013-03-20T15:51:32+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -14,7 +14,7 @@
 
   
   <entry>
-    <title type="html"><![CDATA[test]]></title>
+    <title type="html"><![CDATA[テスト]]></title>
     <link href="http://naot-said.github.com/blog/2013/03/20/test/"/>
     <updated>2013-03-20T15:25:00+09:00</updated>
     <id>http://naot-said.github.com/blog/2013/03/20/test</id>
