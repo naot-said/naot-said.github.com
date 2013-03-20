@@ -1,0 +1,107 @@
+---
+layout: post
+title: "Octopress インストールメモ"
+date: 2013-03-20 15:25
+comments: true
+categories: [Octopress, Github]
+sharing: true
+footer: true
+keywords: [Octopress, Github]
+---
+何か適当にやってたら色々ハマったのでメモ。
+
+----
+## やったこと
+1. RVMのインストール
+2. Rubyのインストール
+3. Githubでリポジトリを作成
+4. Octopressのインストール
+5. 記事の投稿
+
+----
+## 手順メモ
+* RVMのインストール
+  curlとgit-coreをインストール
+```
+    sudo apt-get install curl git-core
+```
+rvmをインストール
+```
+    sudo apt-get install curl git-core
+    curl -L get.rvm.io | bash -s stable
+```
+
+* Rubyのインストール
+  公式の[Octopress Setup](http://octopress.org/docs/setup/)を参考に
+```
+    sudo apt-get install curl git-core
+    rvm install 1.9.3
+```
+~/.bachrcに追記
+``` 
+    source "$HOME/.rvm/scripts/rvm"
+```
+~/.bachrc読み込み
+```
+    source ~/.bashrc
+```
+使用バージョン設定
+```
+    rvm use 1.9.3 --default
+```
+必要なライブラリ等を調べてインストール
+```
+    rvm requirements
+```
+jsonのインストール
+```
+    sudo gem update
+    sudo gem install json
+```
+
+* Githubでリポジトリを作成
+
+
+[create a New Repository] で [USERNAME.github.com] という名前でリポジトリを作成する。
+
+* Octopressのインストール
+
+```
+cd [作業ディレクトリ]
+git clone git://github.com/imathis/octopress.git octopress
+cd octopress
+```
+* Gamfileの編集
+```
+gem 'rake', '~> 10.0.3'
+gem 'json', '~> 1.7.7'
+```
+
+* Octopressのインストールの続き
+```
+sudo gem install bundler
+sudo bundle install
+ 
+rake install
+rake setup_github_pages
+# Enter the read/write url for your repository:
+# git@github.com:[USERNAME]/[USERNAME].github.com.git
+rake generate
+rake deploy
+```
+* サイト確認
+  http://USERNAME.github.com 確認
+
+* Octopressを展開したフォルダがmasterブランチからsourceブランチに変わっているので、そのままリポジトリにコミット
+```
+git add .
+git commit -m 'commit'
+git push -u origin source
+```
+* _config.ymlでサイトの基本設定
+
+とりあえずこれで完了。
+
+
+
+
