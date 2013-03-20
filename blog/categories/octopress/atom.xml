@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Octopress | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/octopress/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T16:52:10+09:00</updated>
+  <updated>2013-03-20T16:54:31+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -39,15 +39,14 @@
 
 <ol>
 <li>RVMのインストール</li>
-<li>curlとgit-coreをインストール
+<li><p>curlとgit-coreをインストール</p>
 
- sudo apt-get install curl git-core
-</li>
-<li>rvmをインストール
+<p> sudo apt-get install curl git-core</p></li>
+<li><p>rvmをインストール
 
  sudo apt-get install curl git-core
  curl -L get.rvm.io | bash -s stable
-</li>
+</p></li>
 <li>Rubyのインストール
 
  sudo apt-get install curl git-core
