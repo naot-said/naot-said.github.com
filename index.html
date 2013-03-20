@@ -130,14 +130,29 @@ sudo apt-get install &hellip;">
 
 
 <ul>
-<li><p>rvmをインストール
- sudo apt-get install curl git-core
- curl -L get.rvm.io | bash -s stable</p></li>
-<li><p>Rubyのインストール</p>
+<li>rvmをインストール</li>
+</ul>
 
-<p> sudo apt-get install curl git-core
- rvm install 1.9.3</p></li>
-<li><p>~/.bachrcに追記</p></li>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install curl git-core
+</span><span class='line'>curl -L get.rvm.io | bash -s stable</span></code></pre></td></tr></table></div></figure>
+
+
+<ol>
+<li>Rubyのインストール</li>
+</ol>
+
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>sudo apt-get install curl git-core
+</span><span class='line'>rvm install 1.9.3</span></code></pre></td></tr></table></div></figure>
+
+
+<ul>
+<li>~/.bachrcに追記</li>
 </ul>
 
 
@@ -147,8 +162,9 @@ sudo apt-get install &hellip;">
 </span><span class='line'>rvm use 1.9.3</span></code></pre></td></tr></table></div></figure>
 
 
-<pre><code>source ~/.bashrc
-</code></pre>
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>source ~/.bashrc</span></code></pre></td></tr></table></div></figure>
+
 
 <p>公式の<a href="http://octopress.org/docs/setup/">Octopress Setup</a>を参考に</p>
 </div>

@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Github | nao メモ用ブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/github/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-20T17:00:00+09:00</updated>
+  <updated>2013-03-20T17:00:54+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -44,21 +44,23 @@
  sudo apt-get install curl git-core
 </code></li>
 <li><p>rvmをインストール
+<code>
  sudo apt-get install curl git-core
- curl -L get.rvm.io | bash -s stable</p></li>
+ curl -L get.rvm.io | bash -s stable
+</code></p></li>
 <li><p>Rubyのインストール
-
+<code>
  sudo apt-get install curl git-core
  rvm install 1.9.3
-</p></li>
+</code></p></li>
 <li>~/.bachrcに追記
 <code>
  source "$HOME/.rvm/scripts/rvm"
  rvm use 1.9.3
 </code>
-
+<code>
  source ~/.bashrc
-</li>
+</code></li>
 </ol>
 
 
