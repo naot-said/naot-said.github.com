@@ -3,15 +3,13 @@
 <html>
 <head>
 	<meta charset="utf-8">
-	<title>Octopressのテーマ変更 - nao メモブログ</title>
+	<title>Octopress コメント機能 - nao メモブログ</title>
 	<meta name="author" content="nao">
 
 	
-	<meta name="description" content="Octopressのテーマ変更 Octopressのテーマ変更 ここから好きなのを選ぶ 3rd Party Octopress Themes あとはreadmeを参考に 1
-2
-3
-4
-$ git clone git@github.com:shashankmehta/greyshade.git &hellip;">
+	<meta name="description" content="Octopress コメント機能 Octopressでコメント コメント機能を使えるようにDISQUSに登録。
+そのあとは_config.ymlを編集。 1
+disqus_short_name: Comments Please enable JavaScript to view the &hellip;">
 	<meta name="keywords" content="OctopressGithub">
 
   <!-- http://t.co/dKP3o1e -->
@@ -21,7 +19,7 @@ $ git clone git@github.com:shashankmehta/greyshade.git &hellip;">
 
 	<link href="/atom.xml" rel="alternate" title="nao メモブログ" type="application/atom+xml">
 	
-	<link rel="canonical" href="http://naot-said.github.com/blog/2013/03/20/themes/">
+	<link rel="canonical" href="http://naot-said.github.com/blog/2013/03/21/disqus/">
 	<link href="/favicon.png" rel="shortcut icon">
 	<link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
 	<!--[if lt IE 9]><script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
@@ -84,33 +82,14 @@ $ git clone git@github.com:shashankmehta/greyshade.git &hellip;">
 			
 			<div class="mid-col-container">
 				<div id="content" class="inner"><article class="post" itemscope itemtype="http://schema.org/BlogPosting">
-	<h1 class="title" itemprop="name">Octopressのテーマ変更</h1>
-	<div class="entry-content" itemprop="articleBody"><h2>Octopressのテーマ変更</h2>
+	<h1 class="title" itemprop="name">Octopress コメント機能</h1>
+	<div class="entry-content" itemprop="articleBody"><h2>Octopressでコメント</h2>
 
-<p>  ここから好きなのを選ぶ</p>
-
-<p>  <a href="https://github.com/imathis/octopress/wiki/3rd-Party-Octopress-Themes">3rd Party Octopress Themes</a></p>
-
-<p>  あとはreadmeを参考に</p>
+<p>コメント機能を使えるようにDISQUSに登録。
+そのあとは_config.ymlを編集。</p>
 
 <figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ git clone git@github.com:shashankmehta/greyshade.git .themes/greyshade
-</span><span class='line'>$ echo "\$greyshade: #268bd2;" &gt;&gt; sass/custom/_colors.scss //Substitue 'color' with your highlight color
-</span><span class='line'>$ rake "install[greyshade]"
-</span><span class='line'>$ rake generate</span></code></pre></td></tr></table></div></figure>
-
-
-<p>タイトルが２重に表示されていたので修正</p>
-
-<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>$ vi source/_includes/header.html
-</span><span class='line'>&lt;!-- 最終行をコメントアウト --&gt; 
-</span><span class='line'>&lt;!-- {\% include custom/header.html \%} --&gt;</span></code></pre></td></tr></table></div></figure>
+</pre></td><td class='code'><pre><code class=''><span class='line'>disqus_short_name: </span></code></pre></td></tr></table></div></figure>
 
 </div>
 
@@ -157,8 +136,8 @@ Design credit: <a href="http://shashankmehta.in/archive/2012/greyshade.html">Sha
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://naot-said.github.com/blog/2013/03/20/themes/';
-        var disqus_url = 'http://naot-said.github.com/blog/2013/03/20/themes/';
+        var disqus_identifier = 'http://naot-said.github.com/blog/2013/03/21/disqus/';
+        var disqus_url = 'http://naot-said.github.com/blog/2013/03/21/disqus/';
         var disqus_script = 'embed.js';
       
     (function () {
