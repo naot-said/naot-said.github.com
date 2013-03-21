@@ -4,7 +4,7 @@
   <title><![CDATA[nao メモブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-21T21:45:27+09:00</updated>
+  <updated>2013-03-21T22:09:08+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -12,6 +12,25 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[新規投稿のテンプレート]]></title>
+    <link href="http://naot-said.github.com/blog/2013/03/21/new-post-temp/"/>
+    <updated>2013-03-21T22:03:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/03/21/new-post-temp</id>
+    <content type="html"><![CDATA[<h2>rake new post実行時のテンプレート</h2>
+
+<p>rake new_post[&#8220;title&#8221;]を実行したときに作成される最初のテンプレートが、キーワードの項目が無かったり少し面倒だったので編集</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>vi Rakefile    # 94行目あたり
+</span><span class='line'>post.puts を編集</span></code></pre></td></tr></table></div></figure>
+
+
+
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Octopress コメント機能]]></title>
