@@ -7,7 +7,8 @@
 	<meta name="author" content="nao">
 
 	
-	<meta name="description" content="Mar 21st, 2013 Github, Octopress 新規投稿のテンプレート rake new post実行時のテンプレート rake new_post[&#8220;title&#8221;]を実行したときに作成される最初のテンプレートが、 &hellip;">
+	<meta name="description" content="Mar 23rd, 2013 Github Pushでハマった 新規リポジトリ作成してからハマった 新規リポジトリを作成してPushするだけで何かハマった。 1
+fatal: The remote end hung up unexpectedly sshキーが間違ってることは無いはずだし。。。 &hellip;">
 	
 
   <!-- http://t.co/dKP3o1e -->
@@ -81,6 +82,78 @@
 			<div class="mid-col-container">
 				<div id="content" class="inner">
 <div itemscope itemtype="http://schema.org/Blog">
+
+
+    <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">
+	<div class="meta">
+		<div class="date">
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-03-23T23:36:00+09:00" data-updated="true" itemprop="datePublished">Mar 23<span>rd</span>, 2013</time></div>
+		<div class="tags">
+
+
+	<a class='category' href='/blog/categories/github/'>Github</a>
+
+
+</div>
+		
+	</div>
+	<h1 class="title" itemprop="name"><a href="/blog/2013/03/23/new-repo/" itemprop="url">Pushでハマった</a></h1>
+	<div class="entry-content" itemprop="articleBody">
+		<h2>新規リポジトリ作成してからハマった</h2>
+
+<p>新規リポジトリを作成してPushするだけで何かハマった。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>fatal: The remote end hung up unexpectedly</span></code></pre></td></tr></table></div></figure>
+
+
+<p>sshキーが間違ってることは無いはずだし。。。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ssh -T git@github.com
+</span><span class='line'>Hi naot-said! You've successfully authenticated, but GitHub does not provide shell access</span></code></pre></td></tr></table></div></figure>
+
+
+<p>結局参考になったのが<a href="http://voidy21.hatenablog.jp/entry/20091207/1260201278">こちらのページ</a>
+Deploy Key削除したら出来ました。。。orz</p>
+
+<p>今度は何かいろいろいじってたから他のエラーが。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git remote -v
+</span><span class='line'>$ git remote rm origin
+</span><span class='line'>$ git remote add origin git@github.com:naot-said/xxxxxx.git
+</span><span class='line'>$ git push origin master
+</span><span class='line'> ! [rejected]        master -&gt; master (non-fast-forward)
+</span><span class='line'>
+</span><span class='line'>$ git push origin master --force</span></code></pre></td></tr></table></div></figure>
+
+
+<p>やっと完了。</p>
+
+		
+		
+	</div>
+
+</article>
 
 
     <article class="post" itemprop="blogPost" itemscope itemtype="http://schema.org/BlogPosting">

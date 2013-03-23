@@ -4,7 +4,7 @@
   <title><![CDATA[nao メモブログ]]></title>
   <link href="http://naot-said.github.com/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-21T22:09:08+09:00</updated>
+  <updated>2013-03-23T23:48:23+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Pushでハマった]]></title>
+    <link href="http://naot-said.github.com/blog/2013/03/23/new-repo/"/>
+    <updated>2013-03-23T23:36:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/03/23/new-repo</id>
+    <content type="html"><![CDATA[<h2>新規リポジトリ作成してからハマった</h2>
+
+<p>新規リポジトリを作成してPushするだけで何かハマった。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>fatal: The remote end hung up unexpectedly</span></code></pre></td></tr></table></div></figure>
+
+
+<p>sshキーが間違ってることは無いはずだし。。。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ ssh -T git@github.com
+</span><span class='line'>Hi naot-said! You've successfully authenticated, but GitHub does not provide shell access</span></code></pre></td></tr></table></div></figure>
+
+
+<p>結局参考になったのが<a href="http://voidy21.hatenablog.jp/entry/20091207/1260201278">こちらのページ</a>
+Deploy Key削除したら出来ました。。。orz</p>
+
+<p>今度は何かいろいろいじってたから他のエラーが。</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>$ git remote -v
+</span><span class='line'>$ git remote rm origin
+</span><span class='line'>$ git remote add origin git@github.com:naot-said/xxxxxx.git
+</span><span class='line'>$ git push origin master
+</span><span class='line'> ! [rejected]        master -&gt; master (non-fast-forward)
+</span><span class='line'>
+</span><span class='line'>$ git push origin master --force</span></code></pre></td></tr></table></div></figure>
+
+
+<p>やっと完了。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[新規投稿のテンプレート]]></title>
