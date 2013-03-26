@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: QT | nao メモブログ]]></title>
+  <link href="http://naot-said.github.com/blog/categories/qt/atom.xml" rel="self"/>
+  <link href="http://naot-said.github.com/"/>
+  <updated>2013-03-27T01:38:13+09:00</updated>
+  <id>http://naot-said.github.com/</id>
+  <author>
+    <name><![CDATA[nao]]></name>
+    <email><![CDATA[naos33@yahoo.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Ubuntu SDK]]></title>
+    <link href="http://naot-said.github.com/blog/2013/03/27/ubuntusdk/"/>
+    <updated>2013-03-27T01:32:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/03/27/ubuntusdk</id>
+    <content type="html"><![CDATA[<h2>Get the Ubuntu SDK preview</h2>
+
+<p>ちょっと気になってきたのでここ<a href="http://developer.ubuntu.com/get-started/gomobile/">見ながら</a>インストール
+1番のUbuntu 12.04 LTS usersのコマンドそのまま実行
+<code>
+sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-proper &amp;&amp; sudo add-apt-repository ppa:ubuntu-sdk-team/ppa &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install ubuntu-sdk notepad-qml
+</code>
+今日はここまで。</p>
+]]></content>
+  </entry>
+  
+</feed>
