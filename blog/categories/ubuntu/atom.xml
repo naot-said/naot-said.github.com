@@ -4,7 +4,7 @@
   <title><![CDATA[Category: Ubuntu | nao メモブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/ubuntu/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-03-27T01:39:40+09:00</updated>
+  <updated>2013-03-27T01:40:36+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -20,8 +20,9 @@
     <id>http://naot-said.github.com/blog/2013/03/27/ubuntusdk</id>
     <content type="html"><![CDATA[<h2>Get the Ubuntu SDK preview</h2>
 
-<p>ちょっと気になってきたので<a href="http://developer.ubuntu.com/get-started/gomobile/">ここ見ながら</a>インストール
-  1番のUbuntu 12.04 LTS usersのコマンドそのまま実行
+<p>ちょっと気になってきたので<a href="http://developer.ubuntu.com/get-started/gomobile/">ここ見ながら</a>インストール</p>
+
+<p>1番のUbuntu 12.04 LTS usersのコマンドそのまま実行
 <code>
 sudo add-apt-repository ppa:canonical-qt5-edgers/qt5-proper &amp;&amp; sudo add-apt-repository ppa:ubuntu-sdk-team/ppa &amp;&amp; sudo apt-get update &amp;&amp; sudo apt-get install ubuntu-sdk notepad-qml
 </code>
