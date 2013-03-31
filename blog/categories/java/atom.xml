@@ -4,7 +4,7 @@
   <title><![CDATA[Category: java | nao メモブログ]]></title>
   <link href="http://naot-said.github.com/blog/categories/java/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
-  <updated>2013-04-01T02:22:14+09:00</updated>
+  <updated>2013-04-01T02:22:53+09:00</updated>
   <id>http://naot-said.github.com/</id>
   <author>
     <name><![CDATA[nao]]></name>
@@ -22,9 +22,11 @@
 
 <p>swingで適当に遊んでたけど、こういうのも使ってみようかなぁ。</p>
 
-<p><a href="http://code.google.com/p/playn/">公式TOP</a>
-<a href="http://code.google.com/p/playn/wiki/GettingStarted">GettingStarted</a>
-<a href="http://www.cattaka.net/wiki/index.php?title=PlayN:Top">参考サイト</a></p>
+<p><a href="http://code.google.com/p/playn/">公式TOP</a></p>
+
+<p><a href="http://code.google.com/p/playn/wiki/GettingStarted">GettingStarted</a></p>
+
+<p><a href="http://www.cattaka.net/wiki/index.php?title=PlayN:Top">参考サイト</a></p>
 ]]></content>
   </entry>
   
