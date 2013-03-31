@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: java | nao メモブログ]]></title>
+  <link href="http://naot-said.github.com/blog/categories/java/atom.xml" rel="self"/>
+  <link href="http://naot-said.github.com/"/>
+  <updated>2013-04-01T02:22:14+09:00</updated>
+  <id>http://naot-said.github.com/</id>
+  <author>
+    <name><![CDATA[nao]]></name>
+    <email><![CDATA[naos33@yahoo.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[playN]]></title>
+    <link href="http://naot-said.github.com/blog/2013/04/01/playn/"/>
+    <updated>2013-04-01T02:18:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/04/01/playn</id>
+    <content type="html"><![CDATA[<h2>playN</h2>
+
+<p>swingで適当に遊んでたけど、こういうのも使ってみようかなぁ。</p>
+
+<p><a href="http://code.google.com/p/playn/">公式TOP</a>
+<a href="http://code.google.com/p/playn/wiki/GettingStarted">GettingStarted</a>
+<a href="http://www.cattaka.net/wiki/index.php?title=PlayN:Top">参考サイト</a></p>
+]]></content>
+  </entry>
+  
+</feed>
