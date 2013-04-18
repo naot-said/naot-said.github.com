@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Category: Java | nao メモブログ]]></title>
-  <link href="http://naot-said.github.com/blog/categories/java/atom.xml" rel="self"/>
+  <title><![CDATA[Category: Wicket | nao メモブログ]]></title>
+  <link href="http://naot-said.github.com/blog/categories/wicket/atom.xml" rel="self"/>
   <link href="http://naot-said.github.com/"/>
   <updated>2013-04-18T23:58:06+09:00</updated>
   <id>http://naot-said.github.com/</id>
