@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Category: memo | nao メモブログ]]></title>
+  <link href="http://naot-said.github.com/blog/categories/memo/atom.xml" rel="self"/>
+  <link href="http://naot-said.github.com/"/>
+  <updated>2013-05-18T21:21:42+09:00</updated>
+  <id>http://naot-said.github.com/</id>
+  <author>
+    <name><![CDATA[nao]]></name>
+    <email><![CDATA[naos33@yahoo.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[メモ]]></title>
+    <link href="http://naot-said.github.com/blog/2013/04/18/memo/"/>
+    <updated>2013-04-18T23:53:00+09:00</updated>
+    <id>http://naot-said.github.com/blog/2013/04/18/memo</id>
+    <content type="html"><![CDATA[<h2>geditの文字化けをなおす</h2>
+
+<p><a href="http://linux.ikoinoba.net/index.php?UID=1321973153">こちらの記事</a>を参考にさせていただきました。</p>
+]]></content>
+  </entry>
+  
+</feed>
